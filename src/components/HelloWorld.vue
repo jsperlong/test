@@ -47,12 +47,6 @@ export default {
     };
   },
   methods: {
-    test() {
-      let a = {bb:'1'};
-      let b = a;
-      a.data = '200';
-      console.log(a,b)
-    },
     bubbleSort(arr) {
       console.time("改进后冒泡排序耗时");
       var len = arr.length;
@@ -90,7 +84,6 @@ export default {
     }
   },
   mounted() {
-    this.test()
     // console.log(
     //   this.bubbleSort([3, 44, 38, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48])
     // );
